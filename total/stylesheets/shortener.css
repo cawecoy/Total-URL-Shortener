@@ -1,0 +1,125 @@
+body {
+	background-image: url('../images/back.png')!important;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left bottom;
+	text-align: center; 
+}
+
+#info{
+	position:relative; 
+	top:200px;
+	left: 0px;
+	width: 320px;
+	text-align: center;
+}
+
+*[contentEditable=true] {
+   -webkit-user-select: text;
+   -webkit-user-modify: read-write !read-only; 
+   cursor: text;
+   -webkit-line-break: after-white-space;
+}
+
+#shorten .palm-button{
+   -webkit-border-image: url(../images/botao-normal.png) 0 16 0 16 stretch stretch;
+   position: absolute;
+   right: 8px;
+   top: 192px;
+   width: 75px;
+}
+
+#shorten .palm-button.selected {
+   -webkit-border-image: url(../images/botao-apertado.png) 0 16 0 16 stretch stretch;
+   position: absolute;
+   right: 8px;
+   top: 192px;
+   width: 75px;
+}
+
+#cancel .palm-button {
+   -webkit-border-image: url(../images/botao-normal.png) 0 16 0 16 stretch stretch;
+   position: absolute;
+   right: 8px;
+   top: 192px;
+   width: 110px;
+}
+
+#cancel .palm-button.selected {
+   -webkit-border-image: url(../images/botao-apertado.png) 0 16 0 16 stretch stretch;
+   position: absolute;
+   right: 8px;
+   top: 192px;
+   width: 110px;
+}
+
+#copy .palm-button {
+   -webkit-border-image: url(../images/botao-normal.png) 0 16 0 16 stretch stretch;
+   position: absolute;
+   right: 8px;
+   top: 247px;
+   width: 110px;
+}
+
+#copy .palm-button.selected {
+   -webkit-border-image: url(../images/botao-apertado.png) 0 16 0 16 stretch stretch;
+   position: absolute;
+   right: 8px;
+   top: 247px;
+   width: 110px;
+}
+
+#clean{
+   position: absolute;
+   right: 93px;
+   top: 207px;
+}
+
+#loading{
+	position: absolute; 
+	top: 210px; 
+	left: 14px; 
+	width: 170px; 
+	text-align: center;
+	color: #ffffff;
+}
+
+#entrada{
+	position: absolute; 
+	top: 200px; 
+	left: 14px;
+	text-transform: lowercase;
+	color: #242424;
+}
+
+#saida{
+	position: absolute; 
+	top: 255px; 
+	left: 14px;
+	text-transform: lowercase;
+	color: #000066;
+}
+
+input{
+	height: 39px; 
+	width: 170px; 
+	-webkit-border-radius: 13px;
+	font-family: "Sans";
+}
+
+#radioButton{
+	background: transparent url('../images/bbb.jpg') repeat !important;
+}
+
+#admob_ad {
+	position: absolute;
+	top: 145px;
+	left: 0px;
+	color: #ffffff;
+}
+
+a {
+	color: #000066;
+	font-size: 12pt;
+	text-decoration: none;
+}
